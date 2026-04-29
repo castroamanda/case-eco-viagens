@@ -1,7 +1,7 @@
 # case-eco-viagens
 
-Resumo
-Esse projeto analisou dados de reservas, clientes, ofertas e práticas sustentáveis da empresa EcoViagens, cujo foco é oferecer experiências de turismo sustentável no Brasil. O projeto teve abordagem ponta a ponta, passando pela criação do banco de dados com foco em permitir o acompanhamento das demandas gerenciais da empresa, proposição de métricas estratégicas a partir dos dados modelados e, por fim, a análise dos dados e disponibilização por meio de dashboards gerenciais. Os principais produtos obtidos em cada etapa foram:
+  Resumo
+Este estudo detalha o desenvolvimento de uma solução de inteligência de dados para a EcoViagens, operadora brasileira especializada em ecoturismo. O trabalho abrangeu desde a estruturação do banco de dados até a definição de indicadores estratégicos (KPIs), culminando na criação de dashboards dinâmicos voltados para a otimização da gestão de reservas, clientes e iniciativas sustentáveis.
 
 1. Modelagem de Dados
 
