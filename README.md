@@ -1,6 +1,6 @@
 # case-eco-viagens
 
-* Resumo
+### Resumo
 Este estudo detalha o desenvolvimento de uma solução de inteligência de dados para a EcoViagens, operadora brasileira especializada em ecoturismo. O trabalho abrangeu desde a estruturação do banco de dados até a definição de indicadores estratégicos (KPIs), culminando na criação de dashboards dinâmicos voltados para a otimização da gestão de reservas, clientes e iniciativas sustentáveis.
 
 1. Modelagem de Dados
