@@ -7,6 +7,7 @@ Este estudo detalha o desenvolvimento de uma solução de inteligência de dados
 
 <img width="1334" height="1049" alt="Diagrama" src="https://github.com/user-attachments/assets/15f94555-076a-469a-91fa-3da631add8c2" />
 
+
 Descrição das entidades:
 
 |  |
