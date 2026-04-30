@@ -52,3 +52,30 @@ Este estudo detalha o desenvolvimento de uma solução de inteligência de dados
 | qtde_pessoas | INTEGER | Quantidade de pessoas na reserva |
 | status | VARCHAR | Confirmada, cancelada, concluída, etc |
 | avaliacao | INTEGER | Nota da avaliação |
+
+### 2. KPIs
+
+### 💰 Financeiro
+| KPI | Objetivo | Cálculo |
+| :--- | :--- | :--- |
+| **Receita Bruta Mensal** | Avaliar performance financeira | Soma de (preço da oferta * qtde de pessoas) |
+| **Ticket Médio** | Medir gasto médio por reserva | Soma de receita / qtde de reservas |
+
+### 🌟 Experiência do Cliente
+| KPI | Objetivo | Cálculo |
+| :--- | :--- | :--- |
+| **Média de Satisfação Geral** | Avaliar qualidade do serviço | Média das avaliações das reservas concluídas |
+| **Aderência à Satisfação** | Medir engajamento (quem avalia) | (Qtde de avaliações / Total de reservas) * 100 |
+| **Satisfação por Operador** | Medir performance por parceiro | Média das avaliações agrupada por operador |
+| **Satisfação por Prática Sustentável** | Correlacionar sustentabilidade e nota | Média das avaliações por tipo de prática |
+
+### 📈 Crescimento e Operação
+| KPI | Objetivo | Cálculo |
+| :--- | :--- | :--- |
+| **Taxa de Cancelamento** | Identificar gargalos operacionais | (Reservas canceladas / Total de reservas) * 100 |
+| **Taxa de Clientes Inativos** | Identificar "churn" ou leads frios | Clientes sem reserva / Total de clientes cadastrados |
+
+### 🌿 Propósito (Sustentabilidade)
+| KPI | Objetivo | Cálculo |
+| :--- | :--- | :--- |
+| **Índice de Sustentabilidade** | Medir preferência por práticas eco | Soma de reservas segregadas por tipo de prática sustentável |
