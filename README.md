@@ -1,15 +1,15 @@
 # case-eco-viagens
 
-#### Resumo
+### Resumo
 Este estudo detalha o desenvolvimento de uma solução de inteligência de dados para a EcoViagens, operadora brasileira especializada em ecoturismo. O trabalho abrangeu desde a estruturação do banco de dados até a definição de indicadores estratégicos (KPIs), culminando na criação de dashboards dinâmicos voltados para a otimização da gestão de reservas, clientes e iniciativas sustentáveis.
 
-#### 1. Modelagem de Dados
+### 1. Modelagem de Dados
 
 <img width="1334" height="1049" alt="Diagrama" src="https://github.com/user-attachments/assets/15f94555-076a-469a-91fa-3da631add8c2" />
 
 #### Descrição das entidades
 
-### 👤 Cliente
+#### 👤 Cliente
 | Atributo | Tipo | Descrição |
 | :--- | :--- | :--- |
 | id_cliente | INTEGER (PK) | Identificador do cliente |
@@ -20,7 +20,7 @@ Este estudo detalha o desenvolvimento de uma solução de inteligência de dados
 | localidade | VARCHAR | Cidade e estado de residência do cliente |
 | data_cadastro | DATE | Data em que o cliente foi cadastrado |
 
-### 🏢 Operador
+#### 🏢 Operador
 | Atributo | Tipo | Descrição |
 | :--- | :--- | :--- |
 | id_operador | INTEGER (PK) | Identificador da empresa |
@@ -30,7 +30,7 @@ Este estudo detalha o desenvolvimento de uma solução de inteligência de dados
 | localidade | VARCHAR | Cidade e estado de atuação da empresa |
 | data_cadastro | DATE | Data em que a empresa foi cadastrada |
 
-### 🏷️ Oferta
+#### 🏷️ Oferta
 | Atributo | Tipo | Descrição |
 | :--- | :--- | :--- |
 | id_oferta | INTEGER (PK) | Identificador da oferta |
@@ -40,7 +40,7 @@ Este estudo detalha o desenvolvimento de uma solução de inteligência de dados
 | preco | DECIMAL | Valor por pessoa |
 | id_operador | INTEGER (FK) | Identificador da empresa |
 
-### 📅 Reserva
+#### 📅 Reserva
 | Atributo | Tipo | Descrição |
 | :--- | :--- | :--- |
 | id_reserva | INTEGER (PK) | Identificador da reserva |
@@ -53,15 +53,15 @@ Este estudo detalha o desenvolvimento de uma solução de inteligência de dados
 | status | VARCHAR | Confirmada, cancelada, concluída, etc |
 | avaliacao | INTEGER | Nota da avaliação |
 
-#### 2. KPIs
+### 2. KPIs
 
-### 💰 Financeiro
+#### 💰 Financeiro
 | KPI | Objetivo | Cálculo |
 | :--- | :--- | :--- |
 | **Receita Bruta Mensal** | Avaliar performance financeira | Soma de (preço da oferta * qtde de pessoas) segregado por mês |
 | **Ticket Médio** | Medir gasto médio por reserva | Soma de receita / Qtde de reservas |
 
-### 🌟 Experiência do Cliente
+#### 🌟 Experiência do Cliente
 | KPI | Objetivo | Cálculo |
 | :--- | :--- | :--- |
 | **Média de Satisfação Geral** | Avaliar qualidade do serviço | Média das avaliações das reservas concluídas |
@@ -69,13 +69,13 @@ Este estudo detalha o desenvolvimento de uma solução de inteligência de dados
 | **Satisfação por Operador** | Medir performance por parceiro | Média das avaliações agrupada por operador |
 | **Satisfação por Prática Sustentável** | Correlacionar sustentabilidade e satisfação | Média das avaliações por tipo de prática sustentável |
 
-### 📈 Crescimento e Operação
+#### 📈 Crescimento e Operação
 | KPI | Objetivo | Cálculo |
 | :--- | :--- | :--- |
 | **Taxa de Cancelamento** | Identificar gargalos operacionais | (Qtde de reservas canceladas / Qtde total de reservas) * 100 |
 | **Taxa de Clientes Inativos** | Identificar "churn" ou leads frios | (Qtde de clientes sem reserva / Qtde total de clientes cadastrados) * 100 |
 
-### 🌿 Propósito (Sustentabilidade)
+#### 🌿 Propósito (Sustentabilidade)
 | KPI | Objetivo | Cálculo |
 | :--- | :--- | :--- |
 | **Índice de Sustentabilidade** | Medir preferência por práticas ecológicas | Soma de reservas segregadas por tipo de prática sustentável |
